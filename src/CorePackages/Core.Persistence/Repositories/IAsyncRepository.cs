@@ -21,7 +21,7 @@ public interface IAsyncRepository<TEntity, TEntityId>:IQuery<TEntity> where TEnt
     );
 
     Task<Paginate<TEntity>> GetListAsync(
-        Expression<Func<TEntity, bool>> predicate = null,
+        Expression<Func<TEntity, bool>>? predicate = null,
         Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
         Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
         int index = 0,
