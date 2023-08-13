@@ -25,6 +25,9 @@
     <Reference Include="Core.Application">
       <HintPath>..\..\CorePackages\Core.Application\bin\Debug\net7.0\Core.Application.dll</HintPath>
     </Reference>
+    <Reference Include="Core.CrossCuttingConcerns">
+      <HintPath>..\..\CorePackages\Core.CrossCuttingConcerns\bin\Debug\net7.0\Core.CrossCuttingConcerns.dll</HintPath>
+    </Reference>
     <Reference Include="Core.Persistence">
       <HintPath>..\..\CorePackages\Core.Persistence\bin\Debug\net7.0\Core.Persistence.dll</HintPath>
     </Reference>
